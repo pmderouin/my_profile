@@ -1,3 +1,27 @@
+ul{
+	list-style: none;
+	padding-inline-start: 0px;
+	text-align: center;
+	font-size: 20px;
+}
+
+li{
+	display: inline;
+	color: red;
+}
+
+.icon-social{
+	color:grey;
+	font-size:40px;
+	opacity: 0.7;
+	transition: color ease 0.5s;
+	padding: 3px;
+}
+
+.icon-social:hover {
+	opacity:1;
+}
+
 /*h1 {
   color: #FF0000;
   font-size: 30px;
@@ -42,19 +66,6 @@ p{
 	text-align: justify;
 }
 
-ul{
-	list-style: none;
-	padding-inline-start: 0px;
-	text-align: center;
-	font-size: 20px;
-}
-
-li{
-	display: inline;
-	color: red;
-}
-
-
 #profile_pmd{
 	width: 200px;
 	border-radius: 50%;
@@ -76,18 +87,6 @@ li{
 }
 .btn_red:hover {
 background-color: rgb(17,14,40);
-}
-
-.icon-social{
-	color:grey;
-	font-size:40px;
-	opacity: 0.7;
-	transition: color ease 0.5s;
-	padding: 3px;
-}
-
-.icon-social:hover {
-	opacity:1;
 }
 
 @media (max-width: 720px) {
