@@ -8,17 +8,20 @@
 		  <meta property="og:site_name" content="Pierre-Marie DEROUIN's Profile">
 		  <meta property="og:description" content="Looking forward to meeting you">
 		  <meta property="og:image" content="images/profile_pmd.png" class="rounded-circle">
-		  <meta name="viewport" content="width=device-width, initial-scale=1">`
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  <link rel="shortcut icon" href="images/LogoAtelierBNPP.png">
 		  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
 		  <link rel="stylesheet" href="style.css">
-		  <meta charset="utf-8">
+		  <meta charset='utf-8' />
+		<title>Change a map's style</title>
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+		
   </head>
 
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="L'Atelier">
   	<img src="images/LogoAtelierBNPP.png" width="30" height="30" alt="">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,35 +30,35 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Hello <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Corporate Advisory</a>
-      <a class="nav-item nav-link" href="#">Business Design</a>
-      <a class="nav-item nav-link" href="#">Public Speaking</a>
-      <a class="nav-item nav-link" href="#">Follow Me</a>
+      <a class="nav-item nav-link" href="#corporate-advisory">Corporate Advisory</a>
+      <a class="nav-item nav-link" href="#business-design">Business Design</a>
+      <a class="nav-item nav-link" href="#public-speaking">Public Speaking</a>
+      <a class="nav-item nav-link" href="#follow-me">Follow Me</a>
     </div>
   </div>
 </nav>
 
 <body>
-<div class="container">
-	  <div class="card_white">
-			<h1>Hello, I'm Pierre-Marie 🤓</h1>
-			<img src="images/profile_pmd.png" id="profile_pmd" class="rounded-circle">
-			<p class="visible-large-screen"> 
-				Currently working as head of digital transformation and strategic designer at L'Atelier BNP Paribas to accelerate innovation with startups, Corporate, academics and creatives. 
-			</p>
-			<p class="visible-large-screen">
-				12-year international experience in strategy & management consulting with a strong track record in advising clients on strategy design & implementation and service design. Interests: Innovation, Strategy, Service Design 🚀
-			</p>
-			<p class="visible-mobile">
-				Head of digital transformation and strategic designer at L'Atelier BNP Paribas
-			</p>
-			<a href="https://www.linkedin.com/in/pmderouininnovationstrategy/" target="_blank">
+<div class="container text-center">
+	 <div class="card_white">
+		<h1>Hello, I'm Pierre-Marie 🤓</h1>
+		<img src="images/profile_pmd.png" id="profile_pmd" class="rounded-circle">
+		<p class="visible-large-screen"> 
+			Currently working as head of digital transformation and strategic designer at L'Atelier BNP Paribas to accelerate innovation with startups, Corporate, academics and creatives. 
+		</p>
+		<p class="visible-large-screen">
+			12-year international experience in strategy & management consulting with a strong track record in advising clients on strategy design & implementation and service design. Interests: Innovation, Strategy, Service Design 🚀
+		</p>
+		<p class="visible-mobile">
+			Head of digital transformation and strategic designer at L'Atelier BNP Paribas
+		</p>
+		<a href="https://www.linkedin.com/in/pmderouininnovationstrategy/" target="_blank">
 			<button type="button" class="btn btn-info">Check Out My Profile</button>
-			</div>
-			</a>
-		</div>
-  <div class="card_white">
-  <h2> Corporate Advisory 📈 </h2>
+		</a>
+	</div>
+  	
+  	<div class="card_white" id="corporate-advisory">
+ 	 	<h2> Corporate Advisory 📈 </h2>
 		<p>
 		Lead of 3-year digital transformation programmes for business lines and support functions by establishing diagnosis, setting ambition and building a roadmap identifying implications on strategic assets, organisational structures and operating models
 		</p>
@@ -63,7 +66,8 @@
 		Lead of strategic research to provide senior management with insights on market dynamics, growth opportunities and business model implications
 		</p>
 	</div>
-<div class="card_white">
+	
+	<div class="card_white" id="business-design">
 		<h2> Business Design 📐</h2>
 		<p>
 		Lead for service design innovation programmes from conception to delivery
@@ -72,25 +76,45 @@
 		Structure bespoke design sprints by mobilising tier-1 contributors such as entrepreneurs, business experts and academics in multiple innovation ecosystems
 		</p>
 	</div>
-<div class="card_white">
+	
+	<div class="card_white" id="public-speaking">
 		<h2> Public Speaking 🎤 </h2>
 		<p>
 		Deliver inspirational keynotes based upon strategic research and analysis on future trends to various audiences including executives of the bank and SBF120 clients
 		</p>
- </div>
-  <div class="card_white">
-	<h2> Follow Me </h2>
+ 	</div>
+  	
+  	<div class="card_white" id="follow-me">
+		<h2> Follow Me 🔥</h2>
 		<ul>
 			<li><a href="https://twitter.com/pmderouin" target="_blank"> <i class="fab fa-twitter-square icon-social"></i></a></li>
 			<li><a href="https://www.linkedin.com/in/pmderouininnovationstrategy/" target="_blank"> <i class="fab fa-linkedin icon-social"></i></i></a></li>
 			<li><a href="https://www.facebook.com/pmderouin" target="_blank"> <i class="fab fa-facebook icon-social"></i></i></a></li>
 		</ul>
-  </div>
+  	</div>
+	<div class="card_white" id="Contact Me">
+		<h2> Let's get In Touch 🤝 </h2>
+		<div class="typeform-widget" data-url="https://pierremariederouin.typeform.com/to/vAWtMl" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=vAWtMl&utm_source=typeform.com-13632699-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+	</div>
 </div>
+
+
+<div id='map' style='width: 100%; height: 300px;'></div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoicG1kZXJvdWluIiwiYSI6ImNqdGp1ZDFpcDFrdzY0YXJyb2QxZDNscXAifQ.CiOJTXMqqFKeYnTPmcBW2Q';
+	var map = new mapboxgl.Map({
+		container: 'map', // container id
+		style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+		center: [2.3785100000000057, 48.8857], // starting position [lng, lat]
+		zoom: 15 // starting zoom
+	});
+</script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
 
 </body>
 
