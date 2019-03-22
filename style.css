@@ -95,7 +95,7 @@ p{
 
 
 
-/*h1 {
+h1 {
   color: #FF0000;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
@@ -128,8 +128,6 @@ h2 {
 .btn_red:hover {
 background-color: rgb(17,14,40);
 }
-
-*/
 
 
 
