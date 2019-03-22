@@ -38,8 +38,17 @@ p{
 }
 
 #profile_pmd{
+	width: 150px;
+	border-radius: 50%;
+}
+
+#profile_pmd{
 	border:3px solid white;
 	box-shadow:2px 2px 2px rgb(150,150,150);
+}
+
+.img-circle{
+	width: 50px;
 }
 
 .icon-social{
@@ -49,6 +58,7 @@ p{
 	transition: color ease 0.5s;
 	padding: 3px;
 }
+
 
 .icon-social:hover {
 	opacity:1;
@@ -106,14 +116,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-#profile_pmd{
-	width: 200px;
-	border-radius: 50%;
-}
 
-.img-circle{
-	width: 50px;
-}
 
 .btn_red{
 	width: 30%;
